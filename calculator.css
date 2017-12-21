@@ -1,0 +1,67 @@
+
+
+body
+{
+  text-align: center;
+  color: #e0e0e0;
+  background: url("igi.jpg");
+  background-size: cover;
+
+}
+#calcontain
+{
+  position: relative;
+  height: 60%;
+}
+#Calc
+{
+  padding-top: 100px;
+  width: 18%;
+  height: 88%;
+  overflow: auto;
+  margin: auto;
+  position: relative;
+  top: 0; left: 0; bottom: 0; right: 0;
+  padding: 20px;
+  color: red;
+  background-color: #43A047;
+  border: 3px solid yellow;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #80CBC4;
+  opacity: 0.6;
+}
+
+#display
+{
+  background-color: #00E676;
+  direction:ltr;
+  margin: 30px;
+  height: 50px;
+  width: 195px;
+  margin: 3px;
+  border: 2px solid black;
+  box-shadow: 5px 8px 8px #000;
+}
+
+#keys
+{
+  background-color: #1B5E20;
+  border-radius: 5px;
+  height: 45px;
+  width: 40px;
+  margin: 3px;
+  border: 2px solid black;
+  box-shadow: 4px 4px 4px #000;
+  cursor: pointer;
+}
+#keys:hover
+{
+  text-decoration: underline;
+  color: #03A9F4;
+}
+h1
+{
+  color: #1B5E20;
+  font-size: 86px;
+  text-shadow: 3px 3px 5px #000;
+}
